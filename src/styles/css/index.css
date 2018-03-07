@@ -1,0 +1,43 @@
+/*
+  Utility rules
+ */
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+/*
+  Override default theme CSS
+ */
+.static-content-wrapper {
+  padding-top: 56px; /* for the top nav */
+}
+
+/*
+  ReactCSSTransitionGroup requires these css rules
+ */
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 200ms ease-in-out;
+}

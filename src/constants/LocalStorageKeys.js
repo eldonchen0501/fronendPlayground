@@ -1,0 +1,4 @@
+export const ACCESS_TOKEN = 'ACCESS_TOKEN';
+export const ACCESS_TOKEN_TTL = 'ACCESS_TOKEN_TTL';
+export const ACCESS_TOKEN_CREATED = 'ACCESS_TOKEN_CREATED';
+export const USER_ID = 'USER_ID';
